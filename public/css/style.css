@@ -1,0 +1,387 @@
+#playlist,audio {
+  background-color:white;
+  width:440px;padding:10px;
+}
+
+.active a {
+  color:#black;
+  text-decoration:none;
+}
+
+#second-carousel {
+  width: 530px; 
+  margin-bottom: 60px; 
+  margin-left: 160px; 
+  padding-top: 60px;
+}
+
+p a {
+  color:black;
+  padding:5px;
+  display:block;
+}
+
+p a:hover {
+  text-decoration:none;
+}
+
+.time {
+	padding-right: 40px;
+}
+
+.timetime {
+	padding-right: 25px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+	margin: -5px
+}
+
+#textplaylist {
+  font-size: 15px;
+}
+
+.textsetje {
+  line-height: 32px;
+}
+
+.video {
+	width: 4000px;
+}
+
+.mySlides {
+  width:109%; 
+  height:760px;
+}
+
+#felixtapes {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 20px; 
+  padding-bottom: 600px; 
+  font-size: 50px;
+}
+
+.tourphotos {
+  margin-left: 195px; 
+  padding-bottom: 100px;
+}
+
+.achtergrond {
+	background-image: url("../../images/vinyl-wallpaper.jpg");
+	opacity: 0.9;
+	background-image-size: 100%;
+	background-size: height: 80px;
+    background-size: 100%;
+    font-style: bold;
+    font-size: 40px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.achtergrondtour {
+	background-image: url("../../images/tour.jpg");
+	opacity: 0.8;
+	background-image-size: 100%;
+	background-size: height: 80px;
+    background-size: 100%;
+    font-style: bold;
+    font-size: 40px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 
+}
+
+.achtergrondmusic {
+	background-image: url("../../images/backgroundmusic.jpg");
+	opacity: 0.8;
+	background-image-size: 100%;
+	background-size: height: 80px;
+    background-size: 100%;
+    font-style: bold;
+    font-size: 40px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 
+}
+
+ul, li {
+	display: inline;
+	padding: 25px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row .firstpicture {
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 8px;
+}	
+
+#albumvoorkant {
+  width: 530px; 
+  margin-bottom: 60px; 
+  margin-left: 110px; 
+  padding-top: 60px;
+}
+
+.album {
+	padding-left: 200px;
+}
+
+#plaatjes {
+  margin-left: 160px;
+}
+
+#beschrijving {
+	
+	margin: 0px;
+}
+
+.bit-widget-initializer{
+	padding:50px;
+	    border-top-width: 10px;
+}
+
+
+[class*="col-"] {
+    float: left;
+    border-width: 0px;
+    border-color: red;
+    border-style: solid;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%; }
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.absolute {
+	width: 100%;
+	height: 100%;
+}
+
+#schedule {
+  margin-left: 185px; 
+  font-size: 20px; 
+  margin-top: 30px;
+}
+
+.foto {
+	height: 678px;
+	width: 100%;
+}
+
+#carouselfoto {
+  height: 430px;
+  width: 100%;
+}
+
+.bredefoto {
+	height: 100%;
+	width: 100%;
+}
+
+.tours {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.albumcontent {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#aboutme1 {
+  position: relative;
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+	margin-left: 160px;
+	margin-top: 60px;
+  margin-bottom: 60px;
+	line-height: 41px;
+}
+
+#aboutme2 {
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  margin-left: 160px;
+  margin-top: 60px;
+  line-height: 41px;
+  padding-top: 10px;
+}
+
+table {
+	width: 500px;
+	padding-right: 10px;
+}
+
+.dropdown {
+    position: center;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #80B490;
+    opacity: 0.8;
+    width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding-left: 1px;
+    font-size: 14px;
+
+}
+
+.ep {
+	font-family: monospace;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  font-size: 22px;
+  margin-left-left: 40px;
+  margin-right: 40px; 
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: black;
+  height: 1.5px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#firstnavbar {
+  margin-left: 55px;
+}
+
+#tourmusic {
+  font-size: 30px; 
+  margin-left: 295px; 
+  margin-top: 80px;
+}
+
+.navbar {
+  padding-bottom: 200px;
+	padding-left: 120px;
+	padding-top: 30px;
+	margin-left: 55px;
+	position: relative;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    color: darkgrey;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

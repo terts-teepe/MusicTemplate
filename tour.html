@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>.mySlides {display:none;}</style>
+	<script src="public/js/jquery-3.2.1.js"></script>
+	<title>Felix Tapes</title>
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<link href="css/hover.css" rel="stylesheet" media="all">
+	<link href='public/css/test.css' type='text/css' rel='stylesheet'>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-m-12 achtergrondtour">
+			<div class="row">
+			      <div id="felixtapes" class="col-m-2">FELIX TAPES</div>
+			      	<div class="col-m-8 navbar">
+				        <div class="dropdown">
+					      	  <a class="contact hvr-underline-from-center"><li>Contact</li></a>
+				              	<div class="dropdown-content">
+					                <a href="https://www.facebook.com/TertsTeepe">Facebook</a>
+				                 	<a href="http://www.soundcloud.com/felixtapes">Soundcloud</a>
+				                  	<a href="https://www.instagram.com/tertsteepe/?hl=nl">Instagram</a>
+				                  	<a href="https://www.linkedin.com/in/felix-terts-teepe-3654a3141/">Linkedin</a>
+				                  	<a>0031620528245</a>
+					                <a href="https://www.hotmail.com">terts@live.nl</a>
+				        		</div>
+				        </div>
+				          <li><a class="boutme hvr-underline-from-center" href="personalproject.html">Home</li></a>
+				          <li><a class="boutme hvr-underline-from-center" href="music.html">Music</li></a>
+				          <li><a class="boutme hvr-underline-from-center" href="personalproject.html#aboutme1">About</li></a>
+				        </ul>
+				        <div id="tourmusic">
+				        	<li><a href="tour.html">Tour</li></a>
+				        </div>
+					</div>
+			</div>	
+		</div>
+	</div>
+
+	<div id="schedule" class="col-m-12">
+		<script src="https://widget.bandsintown.com/main.min.js"></script>
+		<a class="bit-widget-initializer" data-artist-name="Felix Tapes" data-display-past-dates="true" data-separator-color="black" data-widget-width="75%" data-link-text-color="white" data-link-color="#80B490" data-font="Courier"></a>
+	</div>
+
+
+<div class="w3-content w3-section tourphotos">
+  <img class="mySlides" src="images/georgies.jpg">
+  <img class="mySlides" src="images/danse.jpg">
+  <img class="mySlides" src="images/georgies1.jpg">
+  <img class="mySlides" src="images/dolly.jpg">
+  <img class="mySlides" src="images/georgies2.jpg">
+  <img class="mySlides" src="images/nyx.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+</body>
+</html>
